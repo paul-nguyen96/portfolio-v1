@@ -1,6 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import PropTypes from "prop-types";
 import { FaHome } from "react-icons/fa";
 
 function Navbar(){
@@ -8,7 +6,7 @@ function Navbar(){
 
 
   return (
-    <div className="navbar bg-base-100 sticky top-0 z-50">
+    <div className="navbar bg-base-100 sticky top-0 z-50 backdrop-filter backdrop-blur-lg bg-opacity-30">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -49,13 +47,13 @@ function Navbar(){
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal p-0 font-bold">
           <li>
-            <a href="#AboutMe">About Me</a>
+            <a href="/AboutMe">About Me</a>
           </li>
           <li>
-            <a href="#Projects">Projects</a>
+            <a href="/Projects">Projects</a>
           </li>
           <li>
-            <a href="#Contact">Contactt</a>
+            <a href="/Contact">Contact</a>
           </li>
         </ul>
       </div>
