@@ -1,4 +1,4 @@
-import Contact from "./components/Contact";
+import Contact from "./components/layout/Contact";
 import AboutMe from "./components/layout/AboutMe";
 import Hero from "./components/layout/Hero";
 import Navbar from "./components/layout/Navbar";
