@@ -3,8 +3,8 @@ import AboutMe from "./components/layout/AboutMe";
 import Hero from "./components/layout/Hero";
 import Navbar from "./components/layout/Navbar";
 import Projects from "./components/layout/Projects";
-import Email from "./components/Email";
-import Social from "./components/Social";
+// import Email from "./components/Email";
+// import Social from "./components/Social";
 
 function App() {
   return (
@@ -14,8 +14,8 @@ function App() {
       <AboutMe />
       <Projects />
       <Contact />
-      <Social />
-      <Email />
+      
+     
     </div>
   );
 }
