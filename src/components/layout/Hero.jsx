@@ -16,7 +16,7 @@ function Hero() {
             studying Computer Science and learning new technologies in web
             development via 100Devs and The Odin Project.
           </p>
-          <button className="btn btn-primary pl-6 pr-6 bg-inherit">
+          <button className="btn btn-primary px-6 py-4 bg-inherit">
             <a href="https://github.com/paul-nguyen96">Check out my Github!</a>
           </button>
         </div>
